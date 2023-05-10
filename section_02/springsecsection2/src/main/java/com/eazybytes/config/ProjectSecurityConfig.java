@@ -12,6 +12,15 @@ public class ProjectSecurityConfig {
     SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
 
         /**
+         * Default configuration from SpringBootWebSecurityConfiguration.java
+         */
+        /*http.authorizeHttpRequests().anyRequest().authenticated();
+                http.formLogin();
+                http.httpBasic();
+                return http.build();
+        }*/
+
+        /**
          *  Below is the custom security configurations
          */
 
